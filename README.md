@@ -11,7 +11,4 @@ Fig. 1 Illustration of maritime intelligent transportation systems (MITS) for co
 ![Figure_FrameWork](https://github.com/user-attachments/assets/1a6b9501-6680-4cba-ac53-b48721f382df)
 Fig. 2 Overview of the proposed GMvA framework. At each timestamp, multimodal trajectories are structured into temporal graphs. High-dimensional node features are extracted via TGA layer and STA block, with feature normalization applied to enhance representation. After independently processing two distinct data streams, an MLP-UMF computes similarity scores between matching pairs, generating a cross-class similarity matrix. The Hungarian algorithm is then used to derive optimal matches from the matrix.
 
-![Figure_2Scenes](https://github.com/user-attachments/assets/c6b0fb28-39ef-4f32-bac4-6e604b676caf)
-Fig. 3 Visualization of multi-vessel trajectories association under different scenes. Our GMvA has stable target association performance across various scenarios when fewer vessels are present. Even if a matching error occurs in Area 3 (b), GMvA can be swiftly corrected at a later stage. Zooming in is recommended for a clearer view of the details.
-
 
