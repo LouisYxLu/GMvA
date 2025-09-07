@@ -2,3 +2,5 @@ Abstract: Ensuring maritime safety and optimizing traffic management in increasi
 
 
 Our data is constantly being expanded and will be made public soon...
+
+If you want to develop more cooperation, please contact my email (louisyuxulu@gmail.com) directly.
