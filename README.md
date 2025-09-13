@@ -1,8 +1,5 @@
 Abstract: Ensuring maritime safety and optimizing traffic management in increasingly crowded and complex waterways require effective waterway monitoring. However, current methods struggle with challenges arising from multimodal data, such as dimensional disparities, mismatched target counts, vessel scale variations, occlusions, and asynchronous data streams from systems like the automatic identification system (AIS) and closed-circuit television (CCTV). Traditional multi-vessel association methods often struggle with these complexities, particularly in densely trafficked waterways. To overcome these issues, we propose a graph learning-driven multi-vessel association (named GMvA) method tailored for maritime multimodal data fusion. By integrating AIS and CCTV data, GMvA leverages time series learning and graph neural networks to capture the spatiotemporal features of vessel trajectories effectively. To enhance feature representation, the proposed method incorporates temporal graph attention and spatiotemporal attention, effectively capturing both local and global vessel interactions. Furthermore, a multi-layer perceptron-based uncertainty fusion module computes robust similarity scores, and the Hungarian algorithm is adopted to ensure globally consistent and accurate target matching. To validate the efficacy of our method, we have also constructed a new maritime multimodal dataset (termed MaritimeMmD) for data fusion. Extensive experiments demonstrate that GMvA delivers superior accuracy and robustness in multi-vessel association, outperforming existing methods even in challenging scenarios with high vessel density and incomplete or unevenly distributed AIS and CCTV data.
 
-
-Our data is constantly being expanded and will be made public soon...
-
 If you want to develop more cooperation, please contact my email (louisyuxulu@gmail.com) directly.
 
 ![Figure_Background](https://github.com/user-attachments/assets/d188db46-1174-4dca-9e54-a63478c9470a)
@@ -10,5 +7,6 @@ Fig. 1 Illustration of maritime intelligent transportation systems (MITS) for co
 
 ![Figure_FrameWork](https://github.com/user-attachments/assets/1a6b9501-6680-4cba-ac53-b48721f382df)
 Fig. 2 Overview of the proposed GMvA framework. At each timestamp, multimodal trajectories are structured into temporal graphs. High-dimensional node features are extracted via TGA layer and STA block, with feature normalization applied to enhance representation. After independently processing two distinct data streams, an MLP-UMF computes similarity scores between matching pairs, generating a cross-class similarity matrix. The Hungarian algorithm is then used to derive optimal matches from the matrix.
+
 
 Our dataset has been constructed. Due to the fact that the paper is still under review, our complete data will be published after the paper is accepted.
