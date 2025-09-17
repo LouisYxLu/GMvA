@@ -9,4 +9,4 @@ Fig. 1 Illustration of maritime intelligent transportation systems (MITS) for co
 Fig. 2 Overview of the proposed GMvA framework. At each timestamp, multimodal trajectories are structured into temporal graphs. High-dimensional node features are extracted via TGA layer and STA block, with feature normalization applied to enhance representation. After independently processing two distinct data streams, an MLP-UMF computes similarity scores between matching pairs, generating a cross-class similarity matrix. The Hungarian algorithm is then used to derive optimal matches from the matrix.
 
 
-Our dataset has been constructed. Due to the fact that the paper is still under review, our complete data will be published after the paper is accepted.
+Our dataset has been constructed and will be released in a timely manner after the data desensitization is completed.
