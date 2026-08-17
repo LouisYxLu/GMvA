@@ -11,4 +11,4 @@ Fig. 2 Overview of the proposed GMvA framework. At each timestamp, multimodal tr
 
 Our dataset has been constructed and will be released in a timely manner after the data desensitization is completed.
 
-Our dataset will be fully released to the public on December 31, 2027.
+Our dataset will be fully released to the public on December 31, 2027. If you need early access, please reach out to us at louisyuxulu@gmail.com; we can share the data with you in advance once we have communicated and verified that data security protocols are met.
